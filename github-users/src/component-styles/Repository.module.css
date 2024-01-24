@@ -1,0 +1,30 @@
+.repoList {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-decoration: none;
+    padding: 20px;
+    overflow-y: auto;
+    /* height: 500px; */
+}
+
+.repoLink {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(97 218 251);
+}
+
+.repoImg {
+    width: 45px;
+    padding: 0px 10px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 200px;
+}
+
+.repoName {
+    padding-left: 5px;
+}

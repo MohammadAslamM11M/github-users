@@ -1,0 +1,25 @@
+.ProfileCard {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.profileImg {
+    border-radius: 200px;
+    width: 250px;
+}
+
+.profileName {
+    font-size: large;
+    font-weight: bold;
+}
+
+.viewFollowersBtn {
+    width: 150px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}

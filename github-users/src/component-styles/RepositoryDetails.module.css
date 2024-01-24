@@ -1,0 +1,18 @@
+.repoImg {
+    width: 150px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 200px;
+}
+
+.repoName {
+    font-size: large;
+    font-weight: bold;
+}
+
+.goBackBtn {
+    width: 150px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}

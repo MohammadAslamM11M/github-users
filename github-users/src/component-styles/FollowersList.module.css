@@ -1,0 +1,45 @@
+.followersList {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-decoration: none;
+    padding: 10px;
+    overflow-y: auto;
+    /* height: 500px; */
+}
+
+.repoLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(97 218 251);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.repoName {
+    font-size: large;
+    font-weight: bold;
+}
+
+.veiwFollowerRepoBtn {
+    width: 150px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    cursor: pointer;
+}
+
+.goBackBtn {
+    width: 150px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    cursor: pointer;
+}
